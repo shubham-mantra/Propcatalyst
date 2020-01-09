@@ -1,0 +1,562 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.property-detail-about {
+  width: 100%;
+  height: 2869px;
+}
+.rectangle {
+  width: 100%;
+  height: 1001px;
+  background-color: #000000;
+}
+
+
+.border{
+  background-color: #000000;
+  height:24px;
+  width: 100%;
+}
+
+.header{
+  height: 118px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 8fr 30fr 1fr 1fr 1fr 1fr  12fr 0.01fr ;
+  grid-gap: 25px;
+  background-color: #000000;
+}
+
+.middivide{
+  height: 200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 79% 20%;
+  grid-gap: 10px;
+  background-color: #000000;
+}
+
+.group {
+  width: 970px;
+  height: 742px;
+  object-fit: contain;
+  margin-left: 20px; 
+  background-image: url(../img/group.jpg);
+  margin-left: 50px;
+}
+
+.top_left_div{
+  margin-right: 20px;
+  background-color: #171717;
+}
+
+.return-calculator {
+  width: 240px;
+  height: 36px;
+  font-family: SFProDisplay;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.top_left-div_red {
+  
+  background-color: #b61b1c;
+  margin-top: 438px;
+  height: 234px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.high_irr {
+  width: 89px;
+  height: 15px;
+  opacity: 0.5;
+  font-family: SFProDisplay;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1.56px;
+  color: #ffffff;
+  text-align: center;
+}
+
+ .below_high_irr{
+  width: 98px;
+  height: 34px;
+  font-family: SFProDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.high_irr_margin{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.innerdiv{
+  height: 30px;
+}
+
+.main_img{
+  margin-top: 400px;
+  width: 1230px;
+  height: 372px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000 79%);
+}
+
+.marol-naka-mumbai{
+  color: #fff;
+  padding-top: 220px;
+  opacity: 0.5;
+  font-family: SFProDisplay;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.group-45 {
+  width: 85px;
+  height: 79.8px;
+  object-fit: contain;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.group-2 {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 15px;
+  margin-top: 30px;
+  float: left;
+}
+
+.grade-a-properties {
+  
+  opacity: 0.9;
+  font-family: SFProDisplay;
+  font-size: 26.5px;
+  color: #ffffff;
+  margin-top: 30px;
+  padding-left: 6px;
+  float: left;
+  margin-right: 25px;
+}
+
+.group1 {
+  width: 96px;
+  height: 74px;
+  object-fit: contain;
+ text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+.atrium {
+ font-family: SFProDisplay;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.central-sky-let-atri {
+  font-family: SFProDisplay;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.frontage { 
+  font-family: SFProDisplay;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.frontage-of-more-tha{
+  opacity: 0.6;
+  font-family: SFProDisplay;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.rectuser{
+  width: 80%;
+  height: 33px;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  grid-gap: 0px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.bitmap {
+  width: 240px;
+  height: 20.9px;
+/*  background-color: #ffffff;*/
+  color: #ffffff;
+  margin: 14px 0 0 0;
+  font-size: 26px;
+}
+
+.middle{
+  width:100%;
+  height: 1121px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 10px;
+}
+
+.dash{
+  margin-top: 212px;
+  font-size: 33px;
+  color:  #c91718;
+}
+
+.middleleft{
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-gap: 10px;
+}
+
+.value_of_slider{
+  width: 95px;
+  height: 23px;
+  font-family: SFProDisplay;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.middleright{
+margin: 105px 166px 0 20px;
+}
+
+.overview {
+  width: 101px;
+  height: 29px;
+  opacity: 0.33;
+  font-family: SFProDisplay;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+  margin-top: 135px;
+}
+
+.about-property {
+  width: 216px;
+  height: 37px;
+  opacity: 0.93;
+  font-family: SFProDisplay;
+  font-size: 31px;
+  font-weight: bold;
+  text-align: center;
+  color: #1f1f1f;
+  margin-top: 50px;
+}
+
+.tenant-details {
+  width: 153px;
+  height: 29px;
+  opacity: 0.33;
+  font-family: SFProDisplay;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+  margin-top: 50px;
+
+}
+
+.financial-model {
+  width: 166px;
+  height: 29px;
+  opacity: 0.33;
+  font-family: SFProDisplay;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+  margin-top: 50px;
+}
+
+.times-square-is-a-go {
+  width: 100%;
+  height: 111px;
+  font-family: SFProDisplay;
+  font-size: 28px;
+  line-height: 1.32;
+  color: #1f1f1f;
+}
+
+ .developer-of-times-s {
+  width: 100%;
+  height: 34px;
+  font-family: SFProDisplay;
+  font-size: 28px;
+  letter-spacing: -0.28px;
+  color: #1f1f1f;
+  margin-top: 40px;
+}
+
+.amenities {
+  width: 207px;
+  height: 54px;
+  font-family: SFProDisplay;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  color: #383838;
+  margin-top: 49px;
+  margin-bottom: 40px;
+}
+
+.screen-Shot-2018-12-26-at-125705-PM {
+  width: 100%;
+  height: 599px;
+}
+
+.rectanglefooter {
+  height: 148px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-items: center;
+}
+
+.want-to-invest-in-th {
+  width: 724px;
+  height: 39px;
+  font-size: 32.3px;
+  text-align: center;
+  color: #000000;
+  margin-left: 88px;
+}
+
+.rectanglefooterright {
+  width: 280px;
+  height: 70px;
+  border: solid 1px #000000;
+  background-color: #121212;
+}
+
+.enquire-now {
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 3.29px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.properties {
+  width: 117px;
+  height: 19px;
+  font-family: SFProDisplay;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0 0 0;
+}
+
+.plan-your-investment {
+  width: 235px;
+  height: 19px;
+  font-family: SFProDisplay;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+/*  letter-spacing: 2.19px;*/
+  color: #ffffff;
+  margin: 20px 0 0 0;
+}
+
+.faqs {
+  width: 48px;
+  height: 19px;
+  font-family: SFProDisplay;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0 0 0;
+
+}
+.contact {
+  width: 90px;
+  height: 19px;
+  font-family: SFProDisplay;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0 0 0;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.group-12 {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin: 6px 0 0 3px;
+}
+
+.username {
+  width: 110px;
+  height: 19px;
+  font-family: SFProDisplay;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px 0 0 1px;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+}
+
+.arrow{
+  margin-top: 12px;
+  padding-left: 15px;
+}
+
+a{
+  color: #fff;
+}
+
+.grid{
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.gridrect {
+  width: 226px;
+  height: 262px;
+  border: solid 2px #efefef;
+}
+
+.selectgridrect {
+  width: 226px;
+  height: 262px;
+  border-radius: 3px;
+  background-color: #1f1f1f;
+}
+
+.investment_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.investment-amount {
+  width: 120px;
+  height: 16px;
+  opacity: 0.4;
+  font-family: SFProDisplay;
+  font-size: 10px;
+  letter-spacing: 1.68px;
+  color: #ffffff;
+  padding: 15px;
+}
+.rectangle-copy-2 {
+  width: 80px;
+  height: 37px;
+  border: solid 2px #2f2f2f;
+}
+
+.times-square {
+  padding-top: 200px;
+  padding-left: 38px;
+  width: 390px;
+  height: 56px;
+  font-family: SFProDisplay;
+  font-size: 68px;
+  font-weight: 300;
+  line-height: 0.82;
+  float: left;
+  color: #ffffff;
+}
+
+  .view_rect{
+  width: 188px;
+  height: 61px;
+  border-radius: 5px;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.35);
+  background-color: #ffffff;
+  margin-left: 750px;
+  text-align: center;
+}
+
+.view-on-map { 
+  font-family: SFProDisplay;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #1f1f1f;
+  margin-top: 20px;
+  padding-top: 16px;
+}
+
+
+.rect_2000000{
+  width: 80px;
+  height: 19px;
+  font-family: SFProDisplay;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
