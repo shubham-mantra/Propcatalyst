@@ -23,7 +23,7 @@ body{
   height: 118px;
   width: 100%;
   display: grid;
-  grid-template-columns: 0.5fr 8fr 30fr 1fr 1fr 1fr 1fr  12fr 0.01fr ;
+  grid-template-columns: 0.5fr 8fr 30fr 1fr 1fr 1fr 1fr  12fr 0.01fr 1fr ;
   grid-gap: 25px;
   background-color: #000000;
 }
@@ -44,6 +44,7 @@ body{
   margin-left: 20px; 
   background-image: url(../img/group.jpg);
   margin-left: 50px;
+  background-size: 100% 100%;
 }
 
 .top_left_div{
@@ -196,7 +197,6 @@ body{
 
 
 .rectuser{
-  width: 80%;
   height: 33px;
   border: solid 1px #ffffff;
   color: #ffffff;
@@ -439,14 +439,14 @@ a:link {
   width: 20px;
   height: 20px;
   object-fit: contain;
-  margin: 6px 0 0 3px;
+  margin: 6px 0 0 6px;
 }
 
 .username {
   width: 110px;
   height: 19px;
   font-family: SFProDisplay;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -454,7 +454,7 @@ a:link {
   letter-spacing: 2.19px;
   text-align: center;
   color: #ffffff;
-  margin: 10px 0 0 1px;
+  margin: 8px 0 0 4px;
 }
 
 .arrow-down {
@@ -466,8 +466,9 @@ a:link {
 }
 
 .arrow{
-  margin-top: 12px;
-  padding-left: 15px;
+  margin-top: 14px;
+  padding-left: 1px;
+  padding-right: 3px;
 }
 
 a{
