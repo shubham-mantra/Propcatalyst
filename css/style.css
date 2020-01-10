@@ -68,7 +68,7 @@ body{
 .top_right-div_red {
   
   background-color: #b61b1c;
-  height: 234px;
+  height: 235px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -546,7 +546,7 @@ a:link {
   border-bottom: 15px solid #b61b1c;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 182px;
+  margin-top: 5px;
 }
 
 .arrow{
@@ -645,3 +645,45 @@ a{
   margin-top: 10px;
 }
 
+.rangeslider1{
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+}
+
+/* Css For Input Button */
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    opacity: 1;
+    height: 50px;
+    color: #2f2f2f;  
+}
+input[type=number]{
+  background-color: #171717;
+  height: 35px;
+  width: 79px;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+}
+
+
+.spinner-button {
+  position: absolute;
+  cursor: default;
+  z-index: 2;
+  background-color: #ccc;
+  width: 14.5px;
+  text-align: center;
+  margin: 0px;
+  pointer-events: none;
+  height: 10px;
+  line-height: 10px;
+}
+
+
+
+/* CSS done For number input button */
