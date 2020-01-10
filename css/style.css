@@ -47,9 +47,11 @@ body{
   background-size: 100% 100%;
 }
 
-.top_left_div{
+.top_right_div{
   margin-right: 20px;
   background-color: #171717;
+  height:740px;
+  position: relative;;
 }
 
 .return-calculator {
@@ -63,13 +65,16 @@ body{
   margin-top: 40px;
 }
 
-.top_left-div_red {
+.top_right-div_red {
   
   background-color: #b61b1c;
-  margin-top: 438px;
   height: 234px;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: absolute;
+  bottom: 0;
+  
 }
 
 .high_irr {
@@ -82,21 +87,52 @@ body{
   letter-spacing: 1.56px;
   color: #ffffff;
   text-align: center;
+  margin-top: 40px;
+  margin-left: 15px;
 }
 
  .below_high_irr{
   width: 98px;
   height: 34px;
   font-family: SFProDisplay;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+  margin-top: 10px;
+  margin-left: 15px;
 }
+
+.rental_yield {
+  width: 89px;
+  height: 15px;
+  opacity: 0.5;
+  font-family: SFProDisplay;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1.56px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: -10px;
+  
+}
+
+.below_rental_yield{
+  width: 98px;
+  height: 34px;
+  font-family: SFProDisplay;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-left: -25px;
+  
+}
+
 .high_irr_margin{
-  margin-top: 30px;
-  margin-left: 20px;
+  
 }
 
 .innerdiv{
@@ -225,9 +261,11 @@ body{
 }
 
 .dash{
-  margin-top: 212px;
-  font-size: 33px;
-  color:  #c91718;
+  margin-top: 230px;
+  width: 30px; 
+}
+.dash_creation{
+  border: 3px solid #c91718;
 }
 
 .middleleft{
@@ -287,9 +325,45 @@ margin: 105px 166px 0 20px;
   text-align: center;
   color: #000000;
   margin-top: 50px;
-
 }
 
+.mininvestment {
+  width: 132px;
+  height: 15px;
+  opacity: 0.5;
+  font-family: SFProDisplay;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1.56px;
+  color: #ffffff;
+  margin-top: -10px;
+  margin-left: 15px;
+}
+
+.exit_multiplier {
+  width: 132px;
+  height: 15px;
+  opacity: 0.5;
+  font-family: SFProDisplay;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1.56px;
+  color: #ffffff;
+  margin-top: -10px;
+  margin-left: -8px;
+}
+
+.below_x{
+  width: 98px;
+  height: 34px;
+  font-family: SFProDisplay;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-left: -28px;
+}
 .financial-model {
   width: 166px;
   height: 29px;
@@ -463,6 +537,16 @@ a:link {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 5px solid #fff;
+}
+.arrow_up {
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #b61b1c;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 182px;
 }
 
 .arrow{
