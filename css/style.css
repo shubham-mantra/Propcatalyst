@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=sans-serif');
+
+
 body{
   margin: 0;
   padding: 0;
@@ -273,6 +276,8 @@ body{
   display: grid;
   grid-template-columns: 10% 90%;
   grid-gap: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 .value_of_slider{
@@ -286,6 +291,7 @@ body{
   margin: auto;
   margin-top: 20px;
 }
+
 
 .middleright{
 margin: 105px 166px 0 20px;
@@ -655,16 +661,18 @@ a{
 
 
 
+
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button{
     opacity: 1;
     height: 50px;
-    color: #2f2f2f;  
+   /* color: #2f2f2f;*/  
 }
 input[type=number]{
   background-color: #171717;
   height: 35px;
-  width: 79px;
+  width: 80px;
   color: #ffffff;
   border: none;
   text-align: center;
@@ -687,3 +695,67 @@ input[type=number]{
 
 
 /* CSS done For number input button */
+
+/* For Slider*/
+
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+p {
+	
+}
+
+p span {
+  width: 39px;
+  height: 24px;
+  font-family: SFProDisplay;
+  font-size: 19.6px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 60px;
+
+}
+.slideContainer {
+	width: 75%;
+	margin-top: 50px;
+  align-self: center; 
+}
+  
+  .slider {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(90deg,  rgb(214, 214, 214) 0%);
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	border-radius: 12px;
+	box-shadow: 0px 1px 10px 1px black;
+	}
+  
+  
+  
+  .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background: white;
+	cursor: pointer;
+	border-radius: 50%;
+  background-color:#c91718;
+  }
+  
+  /* For Mozilla Firefox 
+  .slider::-moz-range-thumb {
+	width: 40px;
+	height: 40px;
+	background: white;
+	cursor: pointer;
+	border-radius: 50%;
+  }
+*/
+
+
+/* Slider Css ends */
